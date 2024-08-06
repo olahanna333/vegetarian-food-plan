@@ -1,0 +1,44 @@
+.content {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template:
+        "head head" 60px
+        "nav main" 1fr
+        "footer footer" 20px
+        / 200px 1fr;
+}
+
+header {
+    background-color: #313131;
+    grid-area: head;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+nav {
+    grid-area: nav;
+    background-color: rgba(54, 53, 53, 0.903);
+    font-size: large;
+    text-align: center;
+    padding-top: 20px;
+}
+
+main {
+    grid-area: main;
+    background-color: #e3e3e3;
+    overflow: scroll;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #313131;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+    font-size: smaller;
+    text-align: center;
+}
+
+.logo {
+    padding: 10px;
+    width: 50px;
+}

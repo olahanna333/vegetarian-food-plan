@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: "Lucida Console", "Courier New", monospace !important;
+}
+
+html, body { 
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-width: 1px;
+}

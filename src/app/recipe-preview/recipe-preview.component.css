@@ -1,0 +1,55 @@
+.card {
+    position: relative;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    height: 450px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    top: 0px;
+    transition: 0.5s;
+}
+
+a {
+    color: black;
+}
+
+.card:hover {
+    top: -10px;
+}
+
+.card-photo {
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+p {
+    margin: 10px;
+}
+
+.icon-false, .icon-true {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.icon-false {
+    display: none;
+    content: url("/assets/heart-false.svg");
+}
+
+.icon-true {
+    content: url("/assets/heart-true.svg");
+}
+
+.card:hover .icon-false {
+    display: block;
+}

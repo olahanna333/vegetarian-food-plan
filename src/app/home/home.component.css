@@ -1,0 +1,18 @@
+section {
+    text-align: center;
+    margin-top: 20%;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    top: 0;
+    transition: 0.5s;
+}
+
+a:hover {
+    top: -4px;
+    font-size: large;
+}

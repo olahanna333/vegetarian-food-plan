@@ -1,0 +1,540 @@
+{
+  "recipes": [
+    {
+      "id": "0",
+      "name": "Cauliflower baked rice",
+      "methods": [
+        "Heat the oven to 240C/220C fan/ gas 9. Discard any tatty outer leaves on the cauliflower, then cut into florets and slice the stalk and leaves into bite-sized pieces. Tip into a bowl with the onions and olive oil, season, toss together and set aside.",
+        "Tip the rice into a sieve and wash under cold running water until the water runs clear. Tip into a large baking dish with the cranberries, raisins or sultanas and season with 1 tsp sea salt and lots of pepper. Pour over 700ml boiling water and top with the cauliflower and onion mix. Cover with a layer of foil and seal well. Bake for 25-30 mins, then remove the foil and cook for a further 5 mins until the rice is cooked and all the liquid has been absorbed. Leave to stand for 5 mins.",
+        "Meanwhile, mix the vinegar, olive oil, honey and garlic in a bowl. Tip in the remaining dressing ingredients, stir to combine, season to taste and set aside. Fluff up the cooked rice with a fork and spoon the dressing over the top. Scatter over the whole parsley leaves to serve."
+      ],
+      "ingredients": [
+        {
+          "quantity": 800,
+          "unit": "g",
+          "ingredientName": "cauliflower"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "ingredientName": "onion"
+        },
+        {
+          "quantity": 2,
+          "unit": "tbsp",
+          "ingredientName": "olive oil"
+        },
+        {
+          "quantity": 400,
+          "unit": "g",
+          "ingredientName": "basmati rice"
+        },
+        {
+          "quantity": 50,
+          "unit": "g",
+          "ingredientName": "dried cranberries"
+        },
+        {
+          "quantity": 3,
+          "unit": "tbsp",
+          "ingredientName": "white wine vinegar"
+        },
+        {
+          "quantity": 3,
+          "unit": "tbsp",
+          "ingredientName": "olive oil"
+        },
+        {
+          "quantity": 1,
+          "unit": "tbsp",
+          "ingredientName": "honey"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "ingredientName": "garlic clove"
+        },
+        {
+          "quantity": 2,
+          "unit": "",
+          "ingredientName": "shallots"
+        },
+        {
+          "quantity": 50,
+          "unit": "g",
+          "ingredientName": "pitted green olives"
+        },
+        {
+          "quantity": 80,
+          "unit": "g",
+          "ingredientName": "feta"
+        },
+        {
+          "quantity": 5,
+          "unit": "g",
+          "ingredientName": "mint leaves"
+        },
+        {
+          "quantity": 10,
+          "unit": "g",
+          "ingredientName": "parsley"
+        }
+      ],
+      "photo": "/assets/cauliflower-baked-rice.jpg",
+      "prepTime": "1h",
+      "portionNumber": 7,
+      "favorite": false
+    },
+    {
+      "id": "1",
+      "name": "Broccoli stem falafel bowl",
+      "methods": [
+        "First, make the falafel. Put all the ingredients in a food processor, except the oil, and season well. Blitz to a paste, scraping down the sides of the bowl a couple of times until you have a smooth mixture. Lightly oil a dessertspoon and your hands. Scoop a little of the falafel mixture into your hands, then roll into a ball the size of a large cherry tomato. Flatten gently into a disc – the mixture will feel quite soft at this stage. Repeat to make 12 falafel in total, then put on a plate and keep chilled until you’re ready to serve. Will keep chilled for up to 24 hrs.",
+        "To make the hummus, drain the chickpeas, reserving the liquid from the can, then tip into a blender along with a splash of the reserved liquid, the beetroot, garlic, tahini, oil, lemon juice and 1 tsp sea salt. Blitz to a smooth purée, adding more of the reserved chickpea liquid if the purée is too thick. Set aside in the fridge with the falafel. Will keep chilled for up to two days.",
+        "Toss the pitta triangles and pumpkin seeds with the oil, cumin seeds and chilli flakes, then spread out on a baking tray and bake at 200C/180C fan/gas 6 for 8-10 mins until crisp and toasted. Or, do this in an air-fryer at 200C, tossing the mixture halfway through.",
+        "Line a baking tray with parchment (or cut a piece to fit the basket of your air-fryer), brush the parchment with a little oil and arrange the falafel on the tray. Cook for 12-15 mins, turning halfway through, until crisp and golden. Once cool, the falafel will keep chilled or for up to two days – they will firm up as they cool. Reheat or eat cold.",
+        "Mix all the ingredients for the dressing together. Divide the spinach between four shallow bowls or plates, and top with the grains (reheat these if you like, or serve cold), then the carrots, cucumbers, pitta chips and falafel. Generously spoon the hummus into the bowls, then drizzle over the dressing and sprinkle over the roasted pumpkin seeds and a few whole parsley to serve."
+      ],
+      "ingredients": [
+        {
+          "quantity": 2,
+          "unit": "",
+          "ingredientName": "pittas"
+        },
+        {
+          "quantity": 50,
+          "unit": "g",
+          "ingredientName": "pumpkin"
+        },
+        {
+          "quantity": 1,
+          "unit": "tbsp",
+          "ingredientName": "olive oil"
+        },
+        {
+          "quantity": 160,
+          "unit": "g",
+          "ingredientName": "baby spinach"
+        },
+        {
+          "quantity": 200,
+          "unit": "g",
+          "ingredientName": "cooked grains"
+        },
+        {
+          "quantity": 2,
+          "unit": "",
+          "ingredientName": "carrots"
+        },
+        {
+          "quantity": 2,
+          "unit": "tbsp",
+          "ingredientName": "honey"
+        },
+        {
+          "quantity": 100,
+          "unit": "g",
+          "ingredientName": "raw broccoli stalk"
+        },
+        {
+          "quantity": 400,
+          "unit": "g",
+          "ingredientName": "chickpeas"
+        },
+        {
+          "quantity": 0.5,
+          "unit": "tbs",
+          "ingredientName": "balking power"
+        },
+        {
+          "quantity": 2,
+          "unit": "tsp",
+          "ingredientName": "ground cumin"
+        },
+        {
+          "quantity": 1,
+          "unit": "tps",
+          "ingredientName": "ground coriander"
+        },
+        {
+          "quantity": 2,
+          "unit": "",
+          "ingredientName": "garlic cloves"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "ingredientName": "lemon"
+        }
+      ],
+      "photo": "/assets/broccoli-stem-falafel-bowl.jpg",
+      "prepTime": "45mins + chilling",
+      "portionNumber": 4,
+      "favorite": true
+    },
+    {
+      "id": "2",
+      "name": "Loaded potato skins with speedy baked beans",
+      "methods": [
+        "Heat the oven to 220C/200C fan/gas 7. Rub the potatoes with a small drop of the oil, then put on a baking tray and bake for 50 mins until almost tender. Toss the cheese and onion together and set aside.",
+        "Meanwhile, make the beans. Heat the rest of the oil in a small non-stick pan and fry the garlic over a low heat for about a minute, stirring to soften. Add the tomato purée, vinegar and paprika, and cook, stirring, for about a minute more. Tip in the beans and the liquid from the can. Cook for a few minutes so the beans are coated in the sauce, then turn off the heat. Set aside until the potatoes are ready.",
+        "After the potatoes have had their 50 mins, remove from the oven and halve lengthways. Carefully scoop out the middles using a teaspoon to create a shell, with an even layer of potato all the way round. Don’t take out too much, just about 50g from each potato (see tip below for how to use up). Pile on the cheese and onion, then return to the oven for 15 mins until golden. To serve, gently reheat the beans and spoon on top of the cheesy potato skins."
+      ],
+      "ingredients": [
+        {
+          "quantity": 500,
+          "unit": "g",
+          "ingredientName": "baking potatoes"
+        },
+        {
+          "quantity": 50,
+          "unit": "g",
+          "ingredientName": "mature cheddar"
+        },
+        {
+          "quantity": 2,
+          "unit": "",
+          "ingredientName": "spring onions"
+        },
+        {
+          "quantity": 0.5,
+          "unit": "tsp",
+          "ingredientName": "rapessed oil"
+        },
+        {
+          "quantity": 2,
+          "unit": "",
+          "ingredientName": "garlic cloves"
+        },
+        {
+          "quantity": 2,
+          "unit": "tbsp",
+          "ingredientName": "tomato puree"
+        },
+        {
+          "quantity": 1,
+          "unit": "tbsp",
+          "ingredientName": "balsamic vinegar"
+        },
+        {
+          "quantity": 1,
+          "unit": "tsp",
+          "ingredientName": "smoked paprika"
+        },
+        {
+          "quantity": 400,
+          "unit": "g",
+          "ingredientName": "cannellini beans"
+        }
+      ],
+      "photo": "/assets/loaded-potato-skins.jpg",
+      "prepTime": "1h and 15mins",
+      "portionNumber": 2,
+      "favorite": false
+    },
+    {
+      "id": "3",
+      "name": "Roast garlic & tahini spinach",
+      "methods": [
+        "Drizzle a little olive oil over the garlic bulb and season with ½ tsp salt. Wrap in foil and put on the grill close to the heat source, but not directly over the coals. Cook for 35-40 mins until soft, then leave until it’s cool enough to handle.",
+        "Squeeze half the roasted garlic out into a bowl and squash with a fork to make a paste. Stir in the tahini, ½ tsp sugar, ½ tsp salt and ½ tsp black pepper, and mix well. Stir in 4-5 tbsp water, or enough to make a pale, loose dressing.",
+        "Put a flameproof pan on the grill directly over the coals and cook the spinach for a few minutes, stirring until wilted and tender (you may need to do this in batches). Remove from the heat, drain off any excess water and stir into the tahini dressing before serving."
+      ],
+      "ingredients": [
+        {
+          "quantity": 1,
+          "unit": "tbsp",
+          "ingredientName": "olive oil"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "ingredientName": "garlic bulb"
+        },
+        {
+          "quantity": 4,
+          "unit": "tbsp",
+          "ingredientName": "tahini"
+        },
+        {
+          "quantity": 750,
+          "unit": "g",
+          "ingredientName": "spinach"
+        }
+      ],
+      "photo": "/assets/roast-garlic-and-tahini-spinach.jpg",
+      "prepTime": "55mins",
+      "portionNumber": 6,
+      "favorite": false
+    },
+    {
+      "id": "4",
+      "name": "Yuzu beer batter",
+      "methods": [
+        "Whisk the flour, baking powder, ½ tsp salt, ¼ tsp ground black pepper, and the paprika together in a bowl. If using additional seasonings, add them to the dry ingredients at this stage.",
+        "Make a well in the centre of the dry ingredients and crack in the egg. Gradually pour in the cold beer, whisking gently. The mixture will become lumpy at first, but continue whisking until a smooth batter forms. Be careful not to overmix – a few lumps are fine.",
+        "Chill the batter for 15-20 mins (to achieve a lighter texture). Heat 5-7cm of oil in a deep frying pan over a medium-high heat until it reaches 175C on a cooking thermometer, or a cube of bread dropped in browns in 30 seconds.",
+        "Dip your choice of veg or protein (see tip, below) into the chilled batter, ensuring the batter fully coats it. Carefully lower the coated foods into the hot oil, one at a time, using tongs or a slotted spoon. Avoid overcrowding the pan, as this can lower the temperature of the oil and make the batter soggy. Fry in batches, if necessary, until golden brown and crispy, usually about 2-4 mins per side, depending on the thickness of what you’re frying.",
+        "Use a slotted spoon to remove the food from the oil, and set aside on a plate lined with kitchen paper to absorb any excess oil. Season with a pinch of salt while still hot, and serve straightaway."
+      ],
+      "ingredients": [
+        {
+          "quantity": 120,
+          "unit": "g",
+          "ingredientName": "plain flour"
+        },
+        {
+          "quantity": 1,
+          "unit": "tsp",
+          "ingredientName": "baking powder"
+        },
+        {
+          "quantity": 0.25,
+          "unit": "tsp",
+          "ingredientName": "paprika"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "ingredientName": "egg"
+        },
+        {
+          "quantity": 120,
+          "unit": "ml",
+          "ingredientName": "cold yuzu"
+        }
+      ],
+      "photo": "/assets/yuzu-beer-batter.jpg",
+      "prepTime": "30mins",
+      "portionNumber": 6,
+      "favorite": false
+    },
+    {
+      "id": "5",
+      "name": "Baked oats",
+      "methods": [
+        "If you're cooking them in the oven, heat it to 180C/160C fan/gas 4. Put the oats in a blender and pulse a few times until they start to resemble flour. Add the baking powder, chopped banana, maple syrup or honey, eggs and mixed spice or cinnamon, and whizz until smooth. Stir in the chocolate chips or berries.",
+        "If using an air-fryer rather than an oven, heat the air fryer to 180C for 4 mins. Lightly oil four heatproof ramekins, then divide the batter between them. Bake for 8-10 mins in the air-fryer or 20-25 mins in the oven until well-risen and the baked oats spring back when lightly pressed. Scatter with more chocolate chips or berries before serving, if you like."
+      ],
+      "ingredients": [
+        {
+          "quantity": 100,
+          "unit": "g",
+          "ingredientName": "porridge oats"
+        },
+        {
+          "quantity": 1,
+          "unit": "tsp",
+          "ingredientName": "baking powder"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "ingredientName": "banana"
+        },
+        {
+          "quantity": 1,
+          "unit": "tbsp",
+          "ingredientName": "maple syrup"
+        },
+        {
+          "quantity": 2,
+          "unit": "",
+          "ingredientName": "eggs"
+        },
+        {
+          "quantity": 100,
+          "unit": "g",
+          "ingredientName": "chocolate chips"
+        }
+      ],
+      "photo": "/assets/baked-Oats.jpg",
+      "prepTime": "30mins",
+      "portionNumber": 4,
+      "favorite": true
+    },
+    {
+      "id": "6",
+      "name": "Banana overnight oats",
+      "methods": [
+        "Mash 1 banana in a bowl with a fork until smooth. Stir in the oats, cinnamon, maple syrup, milk and peanut butter. Mix well, then cover and chill overnight.",
+        "The next morning, stir the porridge, adding another splash of milk if the mixture is quite stiff. Divide between two bowls. Slice the remaining banana and scatter this over the porridge, drizzle with more nut butter and sprinkle over the almonds. Top with spoonfuls of yogurt, if using, and sprinkle with a pinch more cinnamon before serving."
+      ],
+      "ingredients": [
+        {
+          "quantity": 100,
+          "unit": "g",
+          "ingredientName": "porridge oats"
+        },
+        {
+          "quantity": 0.25,
+          "unit": "tsp",
+          "ingredientName": "ground cinnamon"
+        },
+        {
+          "quantity": 2,
+          "unit": "",
+          "ingredientName": "bananas"
+        },
+        {
+          "quantity": 1,
+          "unit": "tbsp",
+          "ingredientName": "maple syrup"
+        },
+        {
+          "quantity": 300,
+          "unit": "ml",
+          "ingredientName": "milk"
+        },
+        {
+          "quantity": 2,
+          "unit": "tbsp",
+          "ingredientName": "peanut butter"
+        },
+        {
+          "quantity": 2,
+          "unit": "tbsp",
+          "ingredientName": "natural yogurt"
+        }
+      ],
+      "photo": "/assets/banana-Overnight-Oats.jpg",
+      "prepTime": "5mins + chilling",
+      "portionNumber": 2,
+      "favorite": false
+    },
+    {
+      "id": "7",
+      "name": "Banana oat pancakes",
+      "methods": [
+        "Put the oat milk, egg yolks, banana, oats, baking powder and vanilla in a blender and process to as smooth a mixture as you can get. Whisk the eggs whites until they hold stiff peaks. Whisk 1-2 tbsp of the whites into the batter, then fold in the rest.",
+        "Heat a non-stick pan over a medium heat and spray with a whisper of oil, pour about 2 tbsp of batter into the pan and cook for 1-2 mins, until the base sets and bubbles appear all over the top. Flip and cook the other side for a minute. Repeat in batches, making sure the top looks dryish before attempting the flip, or the centre will collapse."
+      ],
+      "ingredients": [
+        {
+          "quantity": 100,
+          "unit": "g",
+          "ingredientName": "rolled oats"
+        },
+        {
+          "quantity": 2,
+          "unit": "tsp",
+          "ingredientName": "baking powder"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "ingredientName": "bananas"
+        },
+        {
+          "quantity": 1,
+          "unit": "tbsp",
+          "ingredientName": "maple syrup"
+        },
+        {
+          "quantity": 125,
+          "unit": "ml",
+          "ingredientName": "oat milk"
+        },
+        {
+          "quantity": 2,
+          "unit": "",
+          "ingredientName": "eggs"
+        }
+      ],
+      "photo": "/assets/healthy-pancakes.jpg",
+      "prepTime": "20mins",
+      "portionNumber": 2,
+      "favorite": false
+    },
+    {
+      "id": "8",
+      "name": "Chicken sandos",
+      "methods": [
+        "Mix the cabbage with a splash of the leftover giardiniera pickling liquid and massage in using your hands, along with a pinch of salt and pepper. Set aside. Roughly chop the remaining giardiniera and stir through the mayonnaise, adding another splash of the leftover pickling liquid. Season to taste.",
+        "Spread some of the mayonnaise over the slices of the bread. Fill your sandwiches with the remaining chicken breast, cut into slices, with more mayo on top, then a handful of the cabbage."
+      ],
+      "ingredients": [
+        {
+          "quantity": 100,
+          "unit": "g",
+          "ingredientName": "white cabbage"
+        },
+        {
+          "quantity": 50,
+          "unit": "g",
+          "ingredientName": "leftover giardiniera"
+        },
+        {
+          "quantity": 50,
+          "unit": "g",
+          "ingredientName": "mayonnaise"
+        },
+        {
+          "quantity": 2,
+          "unit": "",
+          "ingredientName": "crusty rolls"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "ingredientName": "leftover garlic"
+        }
+      ],
+      "photo": "/assets/chicken-sandos.jpg",
+      "prepTime": "5mins",
+      "portionNumber": 2,
+      "favorite": true
+    }
+  ],
+  "plans": [
+    {
+      "id": "0",
+      "day": "Monday",
+      "breakfast": 6,
+      "lunch": 0,
+      "dinner": 3
+    },
+    {
+      "id": "1",
+      "day": "Tuesday",
+      "breakfast": 5,
+      "lunch": 3,
+      "dinner": 8
+    },
+    {
+      "id": "2",
+      "day": "Wednesday",
+      "breakfast": 7,
+      "lunch": 1,
+      "dinner": 4
+    },
+    {
+      "id": "3",
+      "day": "Thursday",
+      "breakfast": 2,
+      "lunch": 1,
+      "dinner": 3
+    },
+    {
+      "id": "4",
+      "day": "Friday",
+      "breakfast": -1,
+      "lunch": -1,
+      "dinner": -1
+    },
+    {
+      "id": "5",
+      "day": "Saturday",
+      "breakfast": -1,
+      "lunch": -1,
+      "dinner": -1
+    },
+    {
+      "id": "6",
+      "day": "Sunday",
+      "breakfast": -1,
+      "lunch": -1,
+      "dinner": -1
+    }
+  ]
+}

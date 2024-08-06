@@ -1,0 +1,60 @@
+.recipe-content {
+    display: grid;
+    grid-template-columns: auto 550px;
+    margin: 50px;
+    overflow-y: hidden;
+}
+
+.recipe-description {
+    display: grid;
+    grid-template-columns: max-content auto;
+}
+
+.recipe-name {
+    text-align: center;
+}
+
+.recipe-ingred {
+    background-color: white;
+    line-height: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ingred {
+    border-bottom: 1px solid gray;
+}
+
+.recipe-methods {
+    padding-left: 40px;
+    min-width: 400px;
+}
+
+.recipe-photo {
+    width: 350px;
+    height: 340px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.recipe-other-details {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.duration {
+    content: url("/assets/hourglass.svg");
+}
+
+.portion {
+    content: url("/assets/dish.svg");
+}

@@ -1,0 +1,21 @@
+.nav-element {
+    margin: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 0;
+    transition: 0.5s;
+}
+
+.nav-element:hover {
+    top: -5px;
+    background-color: #e3e3e319;
+}
+
+a {
+    color: #e3e3e3;
+}
+
+.nav-element:hover a {
+    color: white;
+}
