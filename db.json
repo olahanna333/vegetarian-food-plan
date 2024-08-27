@@ -445,45 +445,6 @@
       "prepTime": "20mins",
       "portionNumber": 2,
       "favorite": false
-    },
-    {
-      "id": "8",
-      "name": "Chicken sandos",
-      "methods": [
-        "Mix the cabbage with a splash of the leftover giardiniera pickling liquid and massage in using your hands, along with a pinch of salt and pepper. Set aside. Roughly chop the remaining giardiniera and stir through the mayonnaise, adding another splash of the leftover pickling liquid. Season to taste.",
-        "Spread some of the mayonnaise over the slices of the bread. Fill your sandwiches with the remaining chicken breast, cut into slices, with more mayo on top, then a handful of the cabbage."
-      ],
-      "ingredients": [
-        {
-          "quantity": 100,
-          "unit": "g",
-          "ingredientName": "white cabbage"
-        },
-        {
-          "quantity": 50,
-          "unit": "g",
-          "ingredientName": "leftover giardiniera"
-        },
-        {
-          "quantity": 50,
-          "unit": "g",
-          "ingredientName": "mayonnaise"
-        },
-        {
-          "quantity": 2,
-          "unit": "",
-          "ingredientName": "crusty rolls"
-        },
-        {
-          "quantity": 1,
-          "unit": "",
-          "ingredientName": "leftover garlic"
-        }
-      ],
-      "photo": "/assets/chicken-sandos.jpg",
-      "prepTime": "5mins",
-      "portionNumber": 2,
-      "favorite": true
     }
   ],
   "plans": [
@@ -499,7 +460,7 @@
       "day": "Tuesday",
       "breakfast": 5,
       "lunch": 3,
-      "dinner": 8
+      "dinner": -1
     },
     {
       "id": "2",

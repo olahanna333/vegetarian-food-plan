@@ -9,7 +9,7 @@ export const routes: Routes = [
     {
         path: '',
         component: HomeComponent,
-        title: 'Home Page'
+        title: 'Home'
     },
     {
         path: 'recipes',
@@ -19,7 +19,7 @@ export const routes: Routes = [
     {
         path: 'favorite',
         component: FavoriteComponent,
-        title: 'Favorite Recipes'
+        title: 'Favorites'
     },
     {
         path: 'details/:id',
