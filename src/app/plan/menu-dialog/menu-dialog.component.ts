@@ -1,87 +1,45 @@
 import { Component, Inject, inject  } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogActions, MatDialogContent, MatDialogRef, MatDialogTitle} from '@angular/material/dialog';
-import { CdkDrag, CdkDragDrop, CdkDropList, CdkDropListGroup, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
+import { CdkDrag, CdkDropList, CdkDropListGroup} from '@angular/cdk/drag-drop';
 import { Recipe } from '../../recipe';
 import { Plan } from '../../plan';
 import { RecipeService } from '../../recipe.service';
 import { PlanService } from '../../plan.service';
+import { CdkDropListElementComponent } from "../cdk-drop-list-element/cdk-drop-list-element.component";
 
 @Component({
   selector: 'app-menu-dialog',
   standalone: true,
-  imports: [MatDialogTitle, MatDialogContent, MatDialogActions, CdkDropListGroup, CdkDropList, CdkDrag],
+  imports: [CdkDropListElementComponent, MatDialogTitle, MatDialogContent, MatDialogActions, CdkDropListGroup, CdkDropList, CdkDrag],
   template: `
   <article class="dialog">
     <h1 mat-dialog-title>Modify {{ data.plan.day }} Menu</h1>
     <mat-dialog-content>
       <div class="dialog-grid" cdkDropListGroup>
-        <div class="example-container recipes">
-          <h3>Recipes</h3>
-
-          <div
-            cdkDropList
-            [cdkDropListData]="recipes"
-            class="list"
-            (cdkDropListDropped)="drop($event)">
-            @for (item of recipes; track item) {
-              <div id="{{item.id}}" class="example-box" cdkDrag>
-                {{item.name}}
-                <img class="photo" [src]="item.photo" alt="Photo of {{item.name}}">
-              </div>
-            }
-          </div>
-        </div>
-
-        <div class="example-container breakfast">
-          <h3>Breakfast</h3>
-
-          <div
-            cdkDropList
-            [cdkDropListData]="breakfast"
-            class="menu"
-            (cdkDropListDropped)="drop($event)">
-            @for (item of breakfast; track item) {
-              <div id="{{item.id}}" class="example-box" cdkDrag>
-                {{item.name}}
-                <img class="photo" [src]="item.photo" alt="Photo of {{item.name}}">
-              </div>
-            }
-          </div>
-        </div>
-
-        <div class="example-container lunch">
-          <h3>Lunch</h3>
-
-          <div
-            cdkDropList
-            [cdkDropListData]="lunch"
-            class="menu"
-            (cdkDropListDropped)="drop($event)">
-            @for (item of lunch; track item) {
-              <div id="{{item.id}}" class="example-box" cdkDrag>
-                {{item.name}}
-                <img class="photo" [src]="item.photo" alt="Photo of {{item.name}}">
-              </div>
-            }
-          </div>
-        </div>
-
-        <div class="example-container dinner">
-          <h3>Dinner</h3>
-
-          <div
-            cdkDropList
-            [cdkDropListData]="dinner"
-            class="menu"
-            (cdkDropListDropped)="drop($event)">
-            @for (item of dinner; track item) {
-              <div id="{{item.id}}" class="example-box" cdkDrag>
-                {{item.name}}
-                <img class="photo" [src]="item.photo" alt="Photo of {{item.name}}">
-              </div>
-            }
-          </div>
-        </div>
+        <app-cdk-drop-list-element 
+          [recipes]="recipes" 
+          [title]="'Recipes'" 
+          [className]="'list'" 
+          class="recipes">
+        </app-cdk-drop-list-element>
+        <app-cdk-drop-list-element 
+          [recipes]="breakfast" 
+          [title]="'Breakfast'" 
+          [className]="'menu'" 
+          class="breakfast">
+        </app-cdk-drop-list-element>
+        <app-cdk-drop-list-element 
+          [recipes]="lunch" 
+          [title]="'Lunch'" 
+          [className]="'menu'" 
+          class="lunch">
+        </app-cdk-drop-list-element>
+        <app-cdk-drop-list-element 
+          [recipes]="dinner" 
+          [title]="'Dinner'" 
+          [className]="'menu'" 
+          class="dinner">
+        </app-cdk-drop-list-element>
       </div>
     </mat-dialog-content>
     <mat-dialog-actions class="buttons">
@@ -138,19 +96,6 @@ export class MenuDialogComponent {
       this.dinner.push(this.data.dinner);
       this.recipes = this.recipes.filter(item => item.id != this.data.dinner.id);
     }
-  }
-
-  drop(event: CdkDragDrop<Recipe[]>) {
-    if (event.previousContainer === event.container) {
-      moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
-    } else if(event.container.data.length != 1 ) {
-      transferArrayItem(
-        event.previousContainer.data,
-        event.container.data,
-        event.previousIndex,
-        event.currentIndex,
-      );
-    } 
   }
 
   checkPlan(meal: Recipe[]) {
