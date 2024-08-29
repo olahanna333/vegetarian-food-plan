@@ -1,12 +1,13 @@
 import { Component, Input } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-nav-item',
   standalone: true,
-  imports: [RouterModule],
+  imports: [ CommonModule, RouterModule ],
   template: `
-    <a [routerLink]="link.linkPath">
+    <a *ngIf="link" [routerLink]="link.linkPath">
       <div class="nav-element">{{link.title}}</div>
     </a>
   `,

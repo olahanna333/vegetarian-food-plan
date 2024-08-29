@@ -1,4 +1,5 @@
 import { Component, Inject, inject  } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { MAT_DIALOG_DATA, MatDialogActions, MatDialogContent, MatDialogRef, MatDialogTitle} from '@angular/material/dialog';
 import { CdkDrag, CdkDropList, CdkDropListGroup} from '@angular/cdk/drag-drop';
 import { Recipe } from '../../recipe';
@@ -10,9 +11,9 @@ import { CdkDropListElementComponent } from "../cdk-drop-list-element/cdk-drop-l
 @Component({
   selector: 'app-menu-dialog',
   standalone: true,
-  imports: [CdkDropListElementComponent, MatDialogTitle, MatDialogContent, MatDialogActions, CdkDropListGroup, CdkDropList, CdkDrag],
+  imports: [CommonModule, CdkDropListElementComponent, MatDialogTitle, MatDialogContent, MatDialogActions, CdkDropListGroup, CdkDropList, CdkDrag],
   template: `
-  <article class="dialog">
+  <article *ngIf="data.plan" class="dialog">
     <h1 mat-dialog-title>Modify {{ data.plan.day }} Menu</h1>
     <mat-dialog-content>
       <div class="dialog-grid" cdkDropListGroup>
